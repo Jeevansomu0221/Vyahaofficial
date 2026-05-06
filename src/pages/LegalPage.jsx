@@ -41,6 +41,7 @@ const pageData = {
           <li><Link to="/partner-policy">Restaurant Partner Policy</Link></li>
           <li><Link to="/delivery-policy">Delivery Partner Policy</Link></li>
           <li><Link to="/cookie-policy">Cookie Policy</Link></li>
+          <li><Link to="/delete-account">Account Deletion</Link></li>
           <li><Link to="/fraud">Report Fraud</Link></li>
         </ul>
         <h3>Core Principles</h3>
@@ -381,6 +382,52 @@ const pageData = {
         <p>You can control cookies through your browser settings. Blocking essential cookies may affect login, checkout, support, or partner tools.</p>
         <h3>Contact</h3>
         <p>Questions about this policy can be sent to <MailLink email={privacyEmail} />.</p>
+      </>
+    )
+  },
+  deleteAccount: {
+    title: 'Delete Your Vyaha Account',
+    content: (
+      <>
+        <p><strong>Effective Date:</strong> {effectiveDate}</p>
+        <PolicyIntro>
+          Vyaha users can request deletion of their account and personal information. This page applies to Vyaha Customer, Vyaha Partner, Vyaha Delivery, the Vyaha website, and related services.
+        </PolicyIntro>
+        <PolicyNote>
+          Some records may be retained where required for legal, tax, payment, fraud prevention, safety, dispute, or regulatory reasons.
+        </PolicyNote>
+        <h3>How To Request Account Deletion</h3>
+        <ol>
+          <li>Email us from your registered phone number or email address at <MailLink email={privacyEmail} />.</li>
+          <li>Use the subject line: Delete My Vyaha Account.</li>
+          <li>Include your full name, registered phone number, app used, and account role.</li>
+          <li>If you are a restaurant or delivery partner, include your restaurant name or delivery partner profile details so we can verify ownership.</li>
+        </ol>
+        <h3>Account Roles</h3>
+        <ul>
+          <li><strong>Customer accounts:</strong> order profile, saved address, order history, support messages, and related customer data.</li>
+          <li><strong>Restaurant partner accounts:</strong> business profile, menu data, verification documents, payout details, order records, and partner support data.</li>
+          <li><strong>Delivery partner accounts:</strong> profile details, verification documents, vehicle details, location/job records, payout details, earnings records, and support data.</li>
+        </ul>
+        <h3>What We Delete</h3>
+        <p>After verifying your request, we will delete or anonymize personal information that is no longer needed to provide services, meet legal obligations, prevent fraud, resolve disputes, or maintain necessary business records.</p>
+        <h3>What We May Retain</h3>
+        <ul>
+          <li>Order, payment, refund, payout, tax, invoice, and settlement records required for business or legal compliance.</li>
+          <li>Fraud prevention, safety, abuse, security, and dispute records where retention is necessary.</li>
+          <li>Restaurant and delivery partner documents or records required for verification, audit, payout, or legal purposes.</li>
+          <li>Backups for a limited period until they are overwritten or securely removed according to our retention practices.</li>
+        </ul>
+        <h3>Processing Time</h3>
+        <p>We aim to acknowledge account deletion requests within 7 working days. Completion time may vary depending on verification, pending orders, payouts, refunds, disputes, legal requirements, or active investigations.</p>
+        <h3>Before You Request Deletion</h3>
+        <ul>
+          <li>Complete or cancel active orders where possible.</li>
+          <li>Resolve pending refunds, COD issues, payouts, or support tickets.</li>
+          <li>Download or save any information you may need later, because account access may be removed after deletion.</li>
+        </ul>
+        <h3>Contact</h3>
+        <p>To request deletion, email <MailLink email={privacyEmail} />. For general account help, contact <MailLink email={supportEmail} />.</p>
       </>
     )
   },

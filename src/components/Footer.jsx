@@ -57,6 +57,7 @@ function Footer() {
               <li><Link to="/refunds">Cancellation and Refunds</Link></li>
               <li><Link to="/community-guidelines">Community Guidelines</Link></li>
               <li><Link to="/cookie-policy">Cookie Policy</Link></li>
+              <li><Link to="/delete-account">Delete Account</Link></li>
               <li><Link to="/support">Help and Support</Link></li>
             </ul>
           </div>

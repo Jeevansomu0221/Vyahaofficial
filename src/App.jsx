@@ -26,6 +26,7 @@ function App() {
           <Route path="/partner-policy" element={<LegalPage pageType="partnerPolicy" />} />
           <Route path="/delivery-policy" element={<LegalPage pageType="deliveryPolicy" />} />
           <Route path="/cookie-policy" element={<LegalPage pageType="cookie" />} />
+          <Route path="/delete-account" element={<LegalPage pageType="deleteAccount" />} />
           <Route path="/restaurants" element={<LegalPage pageType="restaurants" />} />
           <Route path="/apps" element={<LegalPage pageType="apps" />} />
           <Route path="/consulting" element={<LegalPage pageType="consulting" />} />
